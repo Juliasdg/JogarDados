@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #84a98c;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: #000000;
+    border-bottom: #000000;
+}
+
+
+.resultado {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.container-dados {
+    display: flex;
+}
+
+.dado {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    font-size: 2em;
+    line-height: 100px;
+    margin: 0 10px;
+}
+
+.botao {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    border-color: #6ad781;
+    background-color: #b2c9b3;
+}
